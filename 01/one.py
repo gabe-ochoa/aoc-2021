@@ -13,6 +13,15 @@ class Day01():
             previous = i
         return num
 
+    def measurement_windows(input_list: str):
+        '''
+        Sum batches of 3 measurements and put them in a 
+        list
+
+        return batches: list[str]
+        '''
+        
+
 
 if __name__ == '__main__':
     print('Starting Day 1')
