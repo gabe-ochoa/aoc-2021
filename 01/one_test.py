@@ -30,7 +30,7 @@ class Test01(unittest.TestCase):
         269
         260
         263'''
-        answer = [607, 618, 618, 617, 647, 716, 769, 792]
+        answer = 7
         output = Day01.measurement_windows(input_list)
         self.assertEqual(output, answer)
 
